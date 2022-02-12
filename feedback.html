@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+</head>
+<body>
+    <h1>FEEDBACK FORM</h1>
+    <p>Please fill out this form to help us improve our taste.</p>
+    <form method="post" action="">
+        <p>
+           <label>Name:
+               <input name="name" type="text" size="25">
+           </label>
+        </p>
+        <p>
+            <label>Comments:<br>
+                <textarea name="comments" rows="4" cols="36">Enter Your Comments here....</textarea>
+            </label>
+        </p>
+        <p>
+            <label>E-mail Address:
+                <input name="email" type="email" size="25">
+            </label>
+        </p>
+        <p>
+            <strong>Things to upgrade:</strong><br>
+            <label>Taste
+                <input name="thingsupdgrade" type="checkbox">
+            </label>
+            <label>Texture
+                <input name="thingsupgrade" type="checkbox">
+            </label>
+            <label>Aroma
+                <input name="thingsupgrade" type="checkbox">
+            </label>
+            <label>Presentation
+                <input name="thingsupgrade" type="checkbox">
+            </label>
+            <label>None
+                <input name="thingsupgrade" type="checkbox">
+            </label>
+        </p>
+        <p>
+            <strong>How did you get into our restaurant?:</strong>
+            <label>Brochures
+                <input name="howtorestaurant" type="radio">            
+            </label>
+            <label>Site
+                <input name="howtorestaurant" type="radio">            
+            </label>
+            <label>By Friend's Recommendation
+                <input name="howtorestaurant" type="radio">            
+            </label>
+            <label>Other
+                <input name="howtorestaurant" type="radio">            
+            </label>
+        </p>
+             
+        <p>
+            <label>Rate Our Restaurant:
+                <select name="rating">
+                    <option selected="selected"></option>
+                    <option>Outstanding</option>
+                    <option>Excellent</option>
+                    <option>Very Good</option>
+                    <option>Good</option>
+                    <option>Satisfied</option>
+                    <option>Poor</option>
+                    <option>Very Poor</option>
+                </select>
+            </label>
+        </p>
+        <p>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+        </p>
+    </form>
+</body>
+</html>
